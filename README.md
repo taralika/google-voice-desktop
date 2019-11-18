@@ -1,5 +1,5 @@
 # google-voice-desktop
-Google Voice Desktop App (made with Nativefier) with functional badge counter and new icon
+Google Voice Desktop App (made with Nativefier) with functional badge counter and new icon. The badge counter shows total of all unread items (texts, calls, voicemails). If new item arrives, badge counter will auto increment. As items are read, badge counter will automatically decrement. If you have desktop notifications turned on in your Google Voice account settings, the app will send notifications to desktop as new items arrive.
 
 Download the app from [Releases](https://github.com/taralika/google-voice-desktop/releases) section
 
