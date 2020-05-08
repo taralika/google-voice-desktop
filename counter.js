@@ -5,6 +5,12 @@ function updateBadgeCount()
   var count = 0; 
   for (var i = 0; i < targetNodes.length; ++i)
   {
+    // ignore the unreads in spam
+    // previousElementSibling is of class navItemLabel and has the name of the section in it (e.g., " Spam ")
+    if (targetNodes[i].previousElementSibling.innerText.trim().toLowerCase().localeCompare("spam") == 0)
+    {
+      continue;
+    }
     count += parseInt(targetNodes[i].innerHTML);
   }
   count /= 2; // because Google Voice has duplicate nodes for some reason
