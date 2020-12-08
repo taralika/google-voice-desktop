@@ -7,7 +7,7 @@ function updateBadgeCount()
   {
     // ignore the unreads in spam
     // previousElementSibling is of class navItemLabel and has the name of the section in it (e.g., " Spam ")
-    if (targetNodes[i].previousElementSibling.innerText.trim().toLowerCase().localeCompare("spam") == 0)
+    if (targetNodes[i].previousElementSibling.innerHTML.trim().toLowerCase().localeCompare("spam") == 0)
     {
       continue;
     }
