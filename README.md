@@ -16,5 +16,5 @@ Google Voice Desktop App (made with Nativefier) with functional badge counter an
 wget https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Voice_icon.svg
 rsvg-convert -h 1000 -w 1000 Google_Voice_icon.svg > Google_Voice_icon.png
 wget https://raw.githubusercontent.com/taralika/google-voice-desktop/master/counter.js
-nativefier --name "Voice" --icon Google_Voice_icon.png --user-agent "Mozilla/5.0 (Windows NT 10.0; rv:74.0) Gecko/20100101 Firefox/74.0" --counter --inject counter.js "https://voice.google.com/"
+nativefier --name "Voice" --icon Google_Voice_icon.png --user-agent "Mozilla/5.0 (Windows NT 10.0; rv:99.0) Gecko/20100101 Firefox/99.0" --counter --inject counter.js "https://voice.google.com/"
 ```
